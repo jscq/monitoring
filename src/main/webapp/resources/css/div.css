@@ -1,0 +1,24 @@
+.div_kjxz_content {
+	position: fixed;
+	background: url(../images/more_bg.png) repeat;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999;
+	height: 815px;
+}
+
+.div_kjxz_frame {
+	width: 200px;
+	height: 130px;
+	background: url(../images/loading.gif) no-repeat;
+	position: fixed;
+	top: 50%;
+	bottom: 50%;
+	left: 50%;
+	right: 50%;
+	margin: -50px 0 0 -100px;
+	-webkit-box-shadow: 4px 5px 10px #676666;
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;line-height:100%;font-size:12px;font-family:microsoft yahei;outline:0;color:#555}
+a{text-decoration:none}
+ul,li{list-style:none}
+img{border:0 none}
+body{background:#fff;}
+.fleft{float:left;}
+.fright{float:right;}
+.myclear{clear:both;}
+@keyframes fadein{0%{transform:translate(0,-100px);opacity:0}}@-webkit-keyframes fadein{0%{-webkit-transform:translate(0,-100px);opacity:0;}}@keyframes zoomin{100%{transform:scale(1.2);}}@-webkit-keyframes zoomin{100%{-webkit-transform:scale(1.2);}}
+
+
+/*reg*/
+#reg{height:100%;overflow: hidden;width:100%;background:url(../images/reg_bg.jpg) no-repeat top center #fff;}
+#reg_content{width:1106px;height:auto;margin:0 auto;position: relative;}
+#reg_content .edit{width:76px; height:76px; position:absolute;top:44px; right:-34px;}
+.reg_logo{width:557px;height:57px; margin-top:60px; margin-bottom:20px}
+.reg_main{width:1104px; height:auto; border:1px solid #6cb2f6; background:#fff; margin:15px 0}
+.reg_main .pad{padding:30px}
+.reg_main .pad .reg_title{font-size:20px; color:#555555}
+.reg_main .pad .steup {height:38px;color:#333333;background: url(../images/steup.png) repeat-x scroll 0px -152px; margin-top:20px; margin-bottom:10px}
+.steup span.current {color:#fff;background: url(../images/steup.png) repeat-x scroll 0px -114px ;}
+.steup span {float: left;height:38px;line-height: 38px;font-size: 20px;font-family:"微软雅黑";display: block;width:330px;text-align: center;}
+.steup b.i1 {background: url(../images/steup.png) repeat scroll 0px -38px ;}
+.steup b.i2 {background: url(../images/steup.png) repeat scroll 0px -76px ;}
+.steup b {height: 38px;float: left;background: url(../images/steup.png) repeat scroll 0px 0px;width:27px;}
+
+.steup_01{padding:0 15px}
+.steup_01 h2{font-weight:normal;font-size:18px; color:#555555; line-height:40px}
+.steup_01 p{font-size:14px; text-indent:28px;line-height:26px;}
+
+.btn_area{width:260px; height:42px;margin:60px auto 40px auto}
+.btn_area a{width:260px;height:42px; line-height:42px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;display:block;background: #ff6600; color:#fff; text-align:center; color:#fff; font-size:16px;}
+.btn_area a:hover{background:#e25c03}
+.btn_area a:active{background:#ff6600}
+
+.steup_02{padding:0 15px}
+.steup_02 span{ color:#f00; margin-right:6px}
+.steup_02 table{margin:35px auto}
+.steup_02 table td{height:65px; line-height:65px; font-size:14px; color:#5555;}
+.steup_02 table th{font-size:14px; color:#5555; font-weight:normal; text-align:right}
+
+.input_text{color:#999;height:35px;line-height:35px;text-indent:6px;border:1px solid #dadada; margin-left:5px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+.input_text:hover{border:1px solid #b4e3f6; box-shadow:0 1px 1px #b4e3f6 inset, 0 0 8px #b4e3f6; outline: 0 none;color:#737373; background:#fff;}
+.input_checkbox{margin:0 8px 0 0;vertical-align:middle}
+
+.tips_01{display:inline-block;background:url(../images/icon_01.png) no-repeat center left; margin-left:10px;height:15px}
+.tips_01 p{text-indent:24px; font-size:14px}
+.tips_02{display:inline-block;background:url(../images/icon_02.png) no-repeat center left; margin-left:10px;height:15px}
+.tips_02 p{text-indent:24px;font-size:14px}
+.tips_03{display:inline-block;background:url(../images/icon_03.png) no-repeat center left; margin-left:10px; height:15px}
+.tips_03 p{text-indent:24px;font-size:14px}
+
+p.yzm{display:inline-block; margin-left:10px;}
+p.yzm a{margin-left:10px;color:#0a8bee;  }
+p.yzm a:hover{ color:#ff6600; text-decoration:underline;}
+
+.btn_area_02{width:260px; height:42px;margin:60px 0 40px 210px}
+.btn_area_02 a{width:260px;height:42px; line-height:42px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;display:block;background: #ff6600; color:#fff; text-align:center; color:#fff; font-size:16px;}
+.btn_area_02 a:hover{background:#e25c03}
+.btn_area_02 a:active{background:#ff6600}
+
+
+.steup_03{padding:0 15px}
+.steup_03{ text-align:center; margin-top:90px}
+.steup_03 p{font-size:30px; color:#999; text-align:center; margin:50px 0}
+
+.reg_footer{width:1106px; height:80px;color:#363e94;padding-top:4px; text-align:center; border-top:1px solid #e4e2e2; background:#fff;}
+.reg_footer span{ margin:0 8px; line-height:80px;}
+
+
+.hiddenSpan{
+	display: none;
+}
+

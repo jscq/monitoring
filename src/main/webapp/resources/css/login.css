@@ -1,0 +1,145 @@
+/* CSS Document */
+
+@charset "utf-8";
+body {padding: 0; margin: 0;}
+body,html{height: 100%;font-family: "微软雅黑",arial;
+ 	font-size:0.8em;}
+a{
+	color:#333333;
+	text-decoration:none;
+}
+a:hover{
+	color:#000000;
+	text-decoration:none;
+}
+img{border:none}
+li{
+	list-style: none;
+}
+
+
+
+#outer {height: 100%; overflow: hidden; position: relative;width: 100%;background:url(../images/login_bg.jpg) no-repeat top center #559dda}
+#outer[id] {display: table; position: static;}
+#middle {position: absolute; top: 50%;left: 0;}
+#middle[id] {display: table-cell; vertical-align: middle; position: static;}
+#inner {position: relative; top: -50%; margin: 0 auto;}
+#content{width:720px; height:520px; margin: 0 auto;}
+
+.logo{
+	width:657px;
+	height:56px;
+	margin:0 auto;
+}
+
+.denlu{
+	width:100%;
+	height:371px;
+	background:#fff;
+	border:1px #6cb2f6 solid;
+	margin-top:30px;
+	position:relative;
+}
+
+.denlu .left{
+	width:288px;
+	float:left;
+	position:relative;
+}
+
+.denlu .right{
+	margin-left:288px;
+	position:relative;
+}
+
+
+.block2{
+	margin-top:30px;
+	margin-left:50px;
+}
+
+.user{
+	width:100%;
+	color:#333333;
+	display:block;
+	height:70px;
+	margin-top:40px;
+}
+
+.errormessage{
+	width:100%;
+	color:red;
+	display:block;
+	height:30px;
+	margin-top: -5px;
+	margin-left: 18px;
+}
+
+label.user2{
+	width:32px;
+	height:32px;
+	line-height:32px;
+	background:url(../images/usersmall.gif) center no-repeat;
+}
+
+label.pass2{
+	width:32px;
+	height:32px;
+	line-height:32px;
+	background:url(../images/passsmall.gif) center no-repeat;
+}
+
+.pass{
+	width:100%;
+	color:#333333;
+	display:block;
+	height:70px;
+	margin-top:0px;
+}
+.block2 label{
+    display:inline-block;
+    float:left;
+    padding:3px;
+	text-align:right;
+	vertical-align:middle;
+}
+label.rem2{
+	width:140px;
+	text-align:left;
+	vertical-align:middle;
+	margin-left: 20px;
+}
+
+input.input35{
+	width:70%;
+	padding:3px;
+	border:1px #ccc solid;
+	height:37px;
+	line-height:37px;
+	font-family: "微软雅黑",arial;
+
+}
+
+.rem{
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+	color:#333333;
+	font-size:14px;
+	margin-top:20px;
+}
+
+.rem a{
+	float:right;
+	color:#2d93c3;
+	margin-right:50px;
+	}
+
+.btn{width:100%;height:40px;margin:0 auto;margin-top:1em;margin-bottom:1em;display:block;}
+.btn a.login{display:inline-block;background:#7bb9d6;color:#fff;font-size:1.8em;width:120px;height:40px;line-height:40px;margin-left:40px; text-align:center}
+.btn a.login:hover{background:#5eaed3;}
+.btn a.reg{display:inline-block;background:#f38a49;color:#fff;font-size:1.8em;width:120px;height:40px;line-height:40px;margin-left:30px; text-align:center}
+.btn a.reg:hover{ background:#e46c22;}
+
+.footer{width:100%; text-align:center; color:#363e94; padding-top:4em}
+.footer span{ margin:0 15px}
